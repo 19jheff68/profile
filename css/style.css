@@ -1,0 +1,53 @@
+html{
+    font-family: 'Raleway', sans-serif;;
+    font-weight: 500;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    background-color: antiquewhite;
+}
+
+.top-nav {
+    background-color:cadetblue;
+    margin-top: -10px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: 10px;
+    /* box-shadow: 10px 10px lightblue; */
+    /* margin: -10px 0px -10px 0px; */
+}
+
+    .top-nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+
+        .top-nav ul li {
+            float: left;
+        }
+
+            .top-nav ul li a {
+                display: block;
+                padding: 8px;
+                background-color: transparent;
+            }
+
+            .top-nav ul li a:hover {
+                display: block;
+                padding: 8px;
+                background-color: goldenrod;
+                font-size: 20px;
+            }
+
+
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+    .flex-container {
+        flex-direction: column;
+    }
+}

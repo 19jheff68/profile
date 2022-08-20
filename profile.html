@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;400&display=swap" rel="stylesheet">
+    <!-- Load an icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="/css/bulma.css">
+    <link rel="stylesheet" href="/css/slideshow.css">
+    <script src="javascript/main.js" defer></script>
+    <title>Profile</title>
+</head>
+<style>
+    body {
+        background: url(/images/tableclock.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        font-family: 'Work Sans', sans-serif;
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    .container {
+        width: 100vw;
+        height: 100vh;
+    }
+
+    p {
+        color: white;
+        font-weight: 200;
+    }
+
+</style>
+
+<body class="body">
+    <div class="navbar" style="text-align: center;">
+        <a class="" href="index.html">HOME</a>
+        <a href="profile.html">PROFILE</a>
+        <a href="activity1.html">ACTIVITY 1</a>
+        <a href="activity2.html">ACTIVITY 2</a>
+    </div>
+
+    <section>
+
+
+        <div class="is-center" style="margin-top:7rem;">
+            <p>Education</p>
+        </div>
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <!-- <div class="numbertext">1 / 4</div>   -->                
+                <img src="/images/primary.jpg" style="width:100%">
+                <div class="slide-content">Primary: Sta. Dorotea Academy<br>
+                    22 Magsaysay Ave, Teresa, Rizal
+                </div>
+                <div class="text">Elementary School</div>
+            </div>
+
+            <div class="mySlides fade">
+                <!-- <div class="numbertext">2 / 4</div> -->
+                <div class="slide-content">Primary: Sta. Dorotea Academy<br>
+                    22 Magsaysay Ave, Teresa, Rizal
+                </div>
+                <!-- <img src="/images/plantmac.jpg" style="width:100%"> -->
+                <div class="text">Caption Two</div>
+            </div>
+
+            <div class="mySlides fade">
+                <!-- <div class="numbertext">3 / 4</div>          -->
+                <div class="slide-content">Senior High: Tomas Claudio Colleges <br>
+                    Taghangin, San Juan, Morong, Rizal
+                </div>
+                <!-- <img src="/images/splash.jpg" style="width:100%"> -->
+                <div class="text">Caption Three</div>
+            </div>
+
+            <div class="mySlides fade">
+                <!-- <div class="numbertext">4 / 4</div>          -->
+                <div class="slide-content">College: Tomas Claudio Colleges <br>
+                    Taghangin, San Juan, Morong, Rizal
+                </div>
+                <!-- <img src="/images/splash.jpg" style="width:100%"> -->
+                <div class="text">Caption Four</div>
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+
+        </div>
+
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+
+    </section>
+
+
+
+
+    <div class="footer"></div>
+
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+/* body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+} */
+body{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    margin: 0;
+}
+
+/* Navigation Bar */
+.navbar {
+  width: 100%;
+  background-color: #21A4F1;
+  overflow: hidden;
+  top: 0; /*Set the position at the top of the page*/
+  margin-bottom: 10px;
+
+}
+
+.navbar a {  
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  color: #21A4F1;
+  background-color: white;
+ margin-top: 10px;
+}
+
+/* .active {
+  background-color: #04AA6D;
+} */
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+.card  {
+    border-radius: 60%;
+}
